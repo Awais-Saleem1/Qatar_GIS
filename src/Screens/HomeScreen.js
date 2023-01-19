@@ -9,12 +9,12 @@ export const HomeScreen = ({ navigation, route }) => {
     return (
         <SafeAreaView style={{ flex: 1 }}>
             <TouchableOpacity onPress={() => navigation.navigate('Qatar Web GIS')}>
-                <Text style={{ color: 'grey', padding: 10 }}>Go to WEB GIS Screen</Text>
+                <Text style={{ color: 'grey', padding: 10 }}>Go to Qatar GIS Map (WEB)</Text>
             </TouchableOpacity>
             <TouchableOpacity
             // onPress={() => navigation.navigate('Qatar GIS')}
             >
-                <Text style={{ color: 'grey', padding: 10 }}>Go to GIS Screen (not Working)</Text>
+                <Text style={{ color: 'lightgrey', padding: 10 }}>Qatar GIS Map (not Working)</Text>
             </TouchableOpacity>
         </SafeAreaView>
     );
